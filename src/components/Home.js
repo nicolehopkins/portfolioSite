@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import bitmoji from '../assets/bitmoji-20190824013344.png'
+import bitmoji from '../assets/bitmoji-20190824013344.png';
+import Sites from './Sites';
 
 
 export default class Home extends Component {
@@ -23,7 +24,7 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <div style={{ textAlign: "center" }}>
+        <div>
           <span style={{ padding: '50px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Bug-Finder.</span>
@@ -40,6 +41,7 @@ export default class Home extends Component {
             </span>
           </div>
         </div>
+        <Sites />
       </>
     )
   }
