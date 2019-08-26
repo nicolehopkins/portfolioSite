@@ -6,7 +6,7 @@ export default class Nav extends Component {
   render() {
     return (
       <>
-        <div className="btn-group" style={{ padding: '20px'}} role="group" aria-label="Button group with nested dropdown">
+        <div className="btn-group" style={{ padding: '25px'}} role="group" aria-label="Button group with nested dropdown">
           <div className="btn-group" role="group" >
             <button id="btnGroupDrop1" class="btn" style={{backgroundColor: '#4598BD', color: 'white', borderRadius: '20px'}} type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               . . .

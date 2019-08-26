@@ -1,30 +1,16 @@
 import React, { Component } from 'react';
 import './Home.css'
 import bitmoji from '../assets/bitmoji-20190824013344.png';
-import Sites from './Sites';
 import Typing from 'react-typing-animation';
+
+// COMPONENTS
+import Sites from './Sites';
+import Languages from './Languages';
 
 
 export default class Home extends Component {
 
-  // state = {
-  //   text: 'My name is Nicole. This will be a short intro of myself. I will make it so that the text appears to type once the page loads...better known as the typewritter effect. It will be cool, just you wait.',
-  //   typeSpeed: 60,
-  // }
-
-
-  // displayText = () => {
-  //   const { text, typeSpeed } = this.state;
-
-  //   for (let i =0; i < text.length; i++) {
-  //    document.getElementById("typewritter").innerHTML += text.charAt(i);
-  //     setTimeout(typeSpeed)
-  //   }
-  //   // setTimeout(this.displayText, typeSpeed);
-  // }
-
   render() {
-    // const { text } = this.state;
 
     return (
       <div>
@@ -48,7 +34,10 @@ export default class Home extends Component {
             </Typing>
           </div>
         </div>
-        <Sites />
+        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: '#efeff5', width: '100%'}}>
+          <Sites />
+          <Languages />
+        </div>
       </div>
     )
   }

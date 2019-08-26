@@ -31,9 +31,9 @@ export default class Sites extends Component {
 
     return (
       <>
-        <div style={{ padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: '#efeff5', width: '100%' }}>
+        <div>
           <div style={{ textAlign: 'center', padding: '20px' }}>
-            <h2>Check out some of my past projects</h2>
+            <h2>Check out some of my latest work and contributions:</h2>
           </div>
           <div className='row'>
             {
