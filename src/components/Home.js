@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Home.css'
 import bitmoji from '../assets/bitmoji-20190824013344.png';
 import Sites from './Sites';
 
@@ -36,7 +37,7 @@ export default class Home extends Component {
             <img src={bitmoji} alt='bitmoji' />
           </div>
           <div className='col-7' style={{ marginTop: '150px' }}>
-            <span id='typewritter' style={{ fontSize: '25px' }}>
+            <span id='typewritter' className='typing' style={{ fontSize: '25px' }}>
               {window.onload=this.displayText}
             </span>
           </div>
