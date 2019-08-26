@@ -28,8 +28,8 @@ export default class Home extends Component {
 
     return (
       <>
-        <div>
-          <span style={{ padding: '50px', fontSize: '40px' }}>Developer.</span>
+        <div style={{marginLeft: '8%'}}>
+          <span style={{ padding: '25px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Bug-Finder.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Camper.</span>
@@ -43,7 +43,7 @@ export default class Home extends Component {
             <Typing>
             <span id='typewritter' className='typing' style={{ fontSize: '25px' }}>
               Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.
-              
+              Ask Me About: going from Paralegal to Programmer, learning new technologies, and The Office.
             </span>
             </Typing>
           </div>
