@@ -35,11 +35,11 @@ export default class Sites extends Component {
           <div style={{ textAlign: 'center', padding: '20px' }}>
             <h2>Check out some of my past projects</h2>
           </div>
-          <div>
+          <div className='row'>
             {
               sites.map((e, i) => {
                 return (
-                  <a href={e.url} style={{ padding: '20px' }} target='_blank' rel='noopener noreferrer' >
+                  <a href={e.url} className='col-4'  target='_blank' rel='noopener noreferrer' >
                     <img src={e.name} alt={e.alt} style={{ height: '250px', width: '400px', border: 'solid 1px grey', marginBottom: '30px' }} />
                   </a>
                 )

@@ -27,13 +27,13 @@ export default class Home extends Component {
     // const { text } = this.state;
 
     return (
-      <>
-        <div style={{marginLeft: '8%'}}>
+      <div>
+        <div className='row' style={{ margin: '0 auto', justifyContent: 'center' }}>
           <span style={{ padding: '25px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
-          <span style={{ padding: '25px', fontSize: '40px' }}>Bug-Finder.</span>
+          <span style={{ padding: '25px', fontSize: '40px' }}>Bug-Zapper.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Camper.</span>
-          <span style={{ padding: '25px', fontSize: '40px' }}>Fun Aunt.</span>
+          <span style={{ padding: '25px', fontSize: '40px' }}>Proud Aunt.</span>
         </div>
         <div className='row'>
           <div className='col-3'>
@@ -41,15 +41,15 @@ export default class Home extends Component {
           </div>
           <div className='col-7' style={{ marginTop: '150px' }}>
             <Typing>
-            <span id='typewritter' className='typing' style={{ fontSize: '25px' }}>
-              Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.
-              Ask Me About: going from Paralegal to Programmer, learning new technologies, and The Office.
+              <span className='typing' style={{ fontSize: '25px' }}>
+                Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.
+                Ask Me About: going from Paralegal to Programmer, learning new technologies, and all things "The Office".
             </span>
             </Typing>
           </div>
         </div>
         <Sites />
-      </>
+      </div>
     )
   }
 }
