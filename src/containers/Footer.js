@@ -7,7 +7,7 @@ const Footer = (props) => {
 
   return (
     <IconContext.Provider value={{ color: 'white', className: "global-class-name", size: '2em' }}>
-      <nav class="navbar" style={{ backgroundColor: '#4598BD', position: 'absolute', zIndex: '2', width: '100%', height: '100px' }}>
+      <nav class="navbar" style={{ backgroundColor: '#4598BD', position: 'absolute', zIndex: '2', width: '100%', height: '75px' }}>
         {/* <div className='row' style={{ color: 'white' }}>
           <h6>Contact Me:</h6>
         </div> */}
