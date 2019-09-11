@@ -14,7 +14,7 @@ import ReactLogo from '../assets/react.svg';
 import WP from '../assets/Wordpress-Logo.svg';
 
 
-export default class Languages extends Component {
+export default class Icons extends Component {
 
   render() {
     return (
@@ -28,6 +28,7 @@ export default class Languages extends Component {
           <img src={HTML} alt='HTML icon' style={{ width: '200px', height: 'auto', margin: '25px' }} />
           <img src={CSS} alt='HTML icon' style={{ width: '130px', height: 'auto', margin: '25px' }} />
           <img src={Bootstrap} alt='HTML icon' style={{ width: '130px', height: '190px', paddingTop: '40px', margin: '25px' }} />
+          <i class="devicon-bootstrap-plain" ></i>
           <img src={NodeJS} alt='HTML icon' style={{ width: '200px', height: 'auto', margin: '25px' }} />
           <img src={FB} alt='HTML icon' style={{ width: '200px', height: 'auto', margin: '25px' }} />
           <img src={Materialize} alt='HTML icon' style={{ width: '200px', height: 'auto', margin: '25px' }} />

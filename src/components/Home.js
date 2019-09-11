@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './Home.css'
 import bitmoji from '../assets/bitmoji-20190824013344.png';
+
+// This creates the typing effect
 import Typing from 'react-typing-animation';
 
 // COMPONENTS
 import Sites from './Sites';
-import Languages from './Languages';
+import Icons from './Icons';
 
 
 export default class Home extends Component {
 
   render() {
-
     return (
       <div>
         <div className='row' style={{ margin: '0 auto', justifyContent: 'center' }}>
@@ -38,7 +39,7 @@ export default class Home extends Component {
           <Sites />
         </div>
         <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: 'white', width: '100%', height: '100vh'}}>
-          <Languages />
+          <Icons />
         </div>
       </div>
     )
