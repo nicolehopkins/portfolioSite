@@ -9,18 +9,15 @@ export default class Footer extends Component {
     currentYear: null,
   }
 
-  // ComponentDidMount
-
-  GetCurrentYear = () => {
-    console.log('reading this func')
-    // let currentYear = new Date().getFullYear();
-    // console.log('current year is: ' + currentYear)
-    this.setState({ currentYear:  new Date().getFullYear()})
+  componentDidMount() {
+    let year = new Date().getFullYear();
+    return this.setState({ currentYear: year})
   }
+
 
   render() {
     const { currentYear } = this.state;
-    console.log('in render year is: ' + currentYear)
+    // console.log('in render year is: ' + currentYear)
     return (
       <IconContext.Provider value={{ color: 'white', className: "global-class-name", size: '2em' }}>
         <nav className="navbar" style={{ backgroundColor: '#4598BD', position: 'absolute', zIndex: '2', width: '100%', height: '75px' }}>
