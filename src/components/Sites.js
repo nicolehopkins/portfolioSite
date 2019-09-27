@@ -41,7 +41,7 @@ export default class Sites extends Component {
             {
               sites.map((e, i) => {
                 return (
-                  <div className='col-4'>
+                  <div className='col-4' key={i} >
                     <a href={e.url} target='_blank' rel='noopener noreferrer' >
                       <img src={e.name} alt={e.alt} style={{ height: '250px', width: '400px', border: 'solid 1px grey', marginBottom: '30px' }} />
                     </a>

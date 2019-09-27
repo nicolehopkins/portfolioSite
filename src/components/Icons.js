@@ -15,36 +15,36 @@ export default class Icons extends Component {
         </div>
           <div className='row' style={{ paddingBottom: '70px'}}>
             <div className='col-sm'>
-              <i class="devicon-javascript-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-javascript-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-html5-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-html5-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-css3-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-css3-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-bootstrap-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-bootstrap-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-git-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-git-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
           </div>
           <div className='row'>
             <div className='col-sm'>
-              <i class="devicon-react-original colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-react-original colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-postgresql-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-postgresql-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-nodejs-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-nodejs-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-foundation-plain" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-foundation-plain" style={{ fontSize: '160px'}}></i>
             </div>
             <div className='col-sm'>
-              <i class="devicon-visualstudio-plain colored" style={{ fontSize: '160px'}}></i>
+              <i className="devicon-visualstudio-plain colored" style={{ fontSize: '160px'}}></i>
             </div>
           </div>
       </div>
