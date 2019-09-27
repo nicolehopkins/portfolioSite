@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Resume from '../assets/resume.pdf';
 
 
 export default class Nav extends Component {
@@ -15,6 +16,7 @@ export default class Nav extends Component {
               {/* <a className="dropdown-item" href='https://nicjs.home.blog/' target='_blank' rel='noopener noreferrer'>Blog</a> */}
               <a className="dropdown-item" href='https://github.com/nicolehopkins' target='_blank' rel='noopener noreferrer'>Github</a>
               <a className="dropdown-item" href="https://www.linkedin.com/in/nicole-hopkins-01/" target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+              <a className="dropdown-item" href={Resume} target='_blank' rel='noopener noreferrer'>Resume</a>
             </div>
           </div>
         </div>
