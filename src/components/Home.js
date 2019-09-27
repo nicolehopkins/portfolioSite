@@ -14,7 +14,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className='container-fluid'>
         <div className='row' style={{ margin: '0 auto', justifyContent: 'center' }}>
           <span style={{ padding: '25px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
