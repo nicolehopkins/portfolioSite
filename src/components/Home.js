@@ -15,19 +15,26 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className='row' style={{ margin: '0 auto', justifyContent: 'center' }}>
+        <div className='row d-none d-md-block' style={{ margin: '0 auto', justifyContent: 'center' }}>
           <span style={{ padding: '25px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Bug-Zapper.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Camper.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Proud Aunt.</span>
         </div>
+        <div className='row d-sm-block d-md-none' style={{ margin: '0 auto', justifyContent: 'center' }}>
+          <span style={{ padding: '5px', fontSize: '20px' }}>Developer.</span>
+          <span style={{ padding: '5px', fontSize: '20px' }}>Problem-Solver.</span>
+          <span style={{ padding: '5px', fontSize: '20px' }}>Bug-Zapper.</span>
+          <span style={{ padding: '5px', fontSize: '20px' }}>Camper.</span>
+          <span style={{ padding: '5px', fontSize: '20px' }}>Proud Aunt.</span>
+        </div>
         <div className='row'>
           <div className='col-3'>
             <img src={bitmoji} alt='bitmoji' />
           </div>
           <div className='col-7' style={{ marginTop: '150px' }}>
-            <Typing>
+            <Typing className='d-none d-md-block'>
               <span className='typing' style={{ fontSize: '25px' }}>
                 Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.
                 Ask Me About: going from Paralegal to Programmer, learning new technologies, and all things "The Office".
