@@ -31,10 +31,11 @@ export default class Sites extends Component {
 
     return (
       <>
-        <div className='container-fluid'>
+      {/* FOR MEDIUM TO LARGE SCREENS */}
+        <div className='container-fluid d-none d-md-block'>
           <div className='row'>
             <div className='col' style={{ textAlign: 'center', padding: '50px' }}>
-              <h2>Check out some of my latest work and contributions:</h2>
+              <h2 className='col d-none d-md-block'>Check out some of my latest work and contributions:</h2>
             </div>
           </div>
           <div className='row'>
@@ -42,6 +43,28 @@ export default class Sites extends Component {
               sites.map((e, i) => {
                 return (
                   <div className='col-4' key={i} >
+                    <a href={e.url} target='_blank' rel='noopener noreferrer' >
+                      <img src={e.name} alt={e.alt} style={{ height: '250px', width: '400px', border: 'solid 1px grey', marginBottom: '30px' }} />
+                    </a>
+                  </div>
+                )
+              })
+            }
+          </div>
+        </div>
+
+        {/* FOR SMALL SCREENS */}
+        <div className='container-fluid d-sm-block d-md-none'>
+          <div className='row'>
+            <div className='col' style={{ textAlign: 'center', padding: '50px' }}>
+              <p className='col' style={{ fontSize: '20px', padding: '0px' }} >My latest work and contributions:</p>
+            </div>
+          </div>
+          <div className='row'>
+            {
+              sites.map((e, i) => {
+                return (
+                  <div className='col-7'  key={i} >
                     <a href={e.url} target='_blank' rel='noopener noreferrer' >
                       <img src={e.name} alt={e.alt} style={{ height: '250px', width: '400px', border: 'solid 1px grey', marginBottom: '30px' }} />
                     </a>
