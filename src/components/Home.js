@@ -33,8 +33,8 @@ export default class Home extends Component {
           <div className='col-3'>
             <img src={bitmoji} alt='bitmoji' />
           </div>
-          <div className='col-7' style={{ marginTop: '150px' }}>
-            <Typing className='d-none d-md-block'>
+          <div className='col-7 d-none d-md-block' style={{ marginTop: '150px' }}>
+            <Typing >
               <span className='typing' style={{ fontSize: '25px' }}>
                 Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.
                 Ask Me About: going from Paralegal to Programmer, learning new technologies, and all things "The Office".
