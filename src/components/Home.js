@@ -15,7 +15,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className='row d-none d-md-block' style={{ margin: '0 auto', justifyContent: 'center' }}>
+        <div className='row d-none d-md-block' style={{ margin: '0 auto', justifyContent: 'center', padding: '0' }}>
           <span style={{ padding: '25px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Bug-Zapper.</span>
