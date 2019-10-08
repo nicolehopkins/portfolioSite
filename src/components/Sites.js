@@ -56,17 +56,17 @@ export default class Sites extends Component {
         {/* FOR SMALL SCREENS */}
         <div className='container-fluid d-sm-block d-md-none'>
           <div className='row'>
-            <div className='col' style={{ textAlign: 'center', padding: '50px' }}>
-              <p className='col' style={{ fontSize: '21px', padding: '0px' }} >Latest Work/Contributions:</p>
+            <div className='col' style={{ textAlign: 'center', padding: '20px' }}>
+              <p className='col' style={{ fontSize: '21px', padding: '0px' }} >My Latest Work & Contributions:</p>
             </div>
           </div>
           <div className='row'>
             {
               sites.map((e, i) => {
                 return (
-                  <div className='col-7' style={{ alignContent: 'center', maxWidth: '75%' }} key={i} >
+                  <div className='col-12' style={{ alignContent: 'center', maxWidth: '75%' }} key={i} >
                     <a href={e.url} target='_blank' rel='noopener noreferrer' >
-                      <img src={e.name} alt={e.alt} style={{ height: '250px', width: '400px', border: 'solid 1px grey', marginBottom: '30px' }} />
+                      <img src={e.name} alt={e.alt} style={{ height: '250px', width: '350px', border: 'solid 1px grey', marginBottom: '30px', }} />
                     </a>
                   </div>
                 )
