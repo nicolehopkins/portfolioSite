@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.css'
+import './Home.css';
 import bitmoji from '../assets/bitmoji-20190824013344.png';
 
 // This creates the typing effect
@@ -42,10 +42,10 @@ export default class Home extends Component {
             </Typing>
           </div>
         </div>
-        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: '#efeff5', width: '100%', height: '100vh'}}>
+        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: '#efeff5', minWidth: '100%', minHeight: '100vh'}}>
           <Sites />
         </div>
-        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: 'white', width: '100%', height: '100vh'}}>
+        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: 'white', minWidth: '100%', minHeight: '100vh'}}>
           <Icons />
         </div>
       </div>
