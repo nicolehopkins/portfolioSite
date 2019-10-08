@@ -42,7 +42,7 @@ export default class Home extends Component {
             </Typing>
           </div>
         </div>
-        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: '#efeff5', minWidth: '100%', minHeight: '100vh'}}>
+        <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: '#efeff5', minWidth: '100%', minHeight: '100vh' }}>
           <Sites />
         </div>
         <div style={{padding: '20px', borderTop: 'ridge 1px #4598BD', backgroundColor: 'white', minWidth: '100%', minHeight: '100vh'}}>
