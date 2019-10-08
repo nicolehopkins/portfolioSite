@@ -15,6 +15,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
+        {/* FOR MEDIUM TO LARGE SCREENS */}
         <div className='row d-none d-md-block' style={{ margin: '0 auto', justifyContent: 'center', padding: '0' }}>
           <span style={{ padding: '25px', fontSize: '40px' }}>Developer.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Problem-Solver.</span>
@@ -22,18 +23,20 @@ export default class Home extends Component {
           <span style={{ padding: '25px', fontSize: '40px' }}>Camper.</span>
           <span style={{ padding: '25px', fontSize: '40px' }}>Proud Aunt.</span>
         </div>
+        {/* FOR SMALL TO MEDIUM SCREENS */}
         <div className='row d-sm-block d-md-none' style={{ margin: '0 auto', justifyContent: 'center' }}>
-          <span style={{ padding: '5px', fontSize: '20px' }}>Developer.</span>
-          <span style={{ padding: '5px', fontSize: '20px' }}>Problem-Solver.</span>
-          <span style={{ padding: '5px', fontSize: '20px' }}>Bug-Zapper.</span>
-          <span style={{ padding: '5px', fontSize: '20px' }}>Camper.</span>
-          <span style={{ padding: '5px', fontSize: '20px' }}>Proud Aunt.</span>
+          <span style={{ padding: '5px', fontSize: '25px' }}>Developer.</span>
+          <span style={{ padding: '5px', fontSize: '25px' }}>Problem-Solver.</span>
+          <span style={{ padding: '5px', fontSize: '25px' }}>Bug-Zapper.</span>
+          <span style={{ padding: '5px', fontSize: '25px' }}>Camper.</span>
+          <span style={{ padding: '5px', fontSize: '25px' }}>Proud Aunt.</span>
         </div>
         <div className='row'>
           <div className='col-3'>
             <img src={bitmoji} alt='bitmoji' />
           </div>
           <div className='col-7 d-none d-md-block' style={{ marginTop: '150px' }}>
+            {/* TYPING EFFECT IS HIDDEN ON SMALL SCREEN */}
             <Typing >
               <span className='typing' style={{ fontSize: '25px' }}>
                 Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.

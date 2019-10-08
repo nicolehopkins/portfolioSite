@@ -5,7 +5,7 @@ export default class Icons extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className='d-none d-md-block'>
           <div className='container' style={{ textAlign: 'center', padding: '50px' }}>
             <div className='row'>
               <div className='col'>
@@ -13,9 +13,7 @@ export default class Icons extends Component {
               </div>
             </div>
           </div>
-
-          {/* FOR MEDIUM TO LARGE SCREENS */}
-          <div className='container-fluid d-none d-md-block'>
+          <div className='container-fluid'>
             <div className='row' style={{ paddingBottom: '70px' }}>
               <div className='col-sm'>
                 <i className="devicon-javascript-plain colored" style={{ fontSize: '160px' }}></i>
@@ -51,9 +49,18 @@ export default class Icons extends Component {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* FOR SMALL TO MEDIUM SCREENS */}
-          <div className='container-fluid d-sm-block d-md-none'>
+        {/* FOR SMALL TO MEDIUM SCREENS */}
+        <div className='d-sm-block d-md-none'>
+          <div className='container' style={{ textAlign: 'center', padding: '10px' }}>
+            <div className='row'>
+              <div className='col' style={{ textAlign: 'center', padding: '10px' }}>
+                <h2 style={{ fontSize: '21px' }} >Things I Know:</h2>
+              </div>
+            </div>
+          </div>
+          <div className='container-fluid '>
             <div className='row' style={{ paddingBottom: '70px' }}>
               <div className='col-6'>
                 <i className="devicon-javascript-plain colored" style={{ fontSize: '160px' }}></i>

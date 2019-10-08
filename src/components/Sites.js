@@ -57,7 +57,7 @@ export default class Sites extends Component {
         <div className='container-fluid d-sm-block d-md-none'>
           <div className='row'>
             <div className='col' style={{ textAlign: 'center', padding: '50px' }}>
-              <p className='col' style={{ fontSize: '20px', padding: '0px' }} >My latest work and contributions:</p>
+              <p className='col' style={{ fontSize: '21px', padding: '0px' }} >Latest Work/Contributions:</p>
             </div>
           </div>
           <div className='row'>
