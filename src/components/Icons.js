@@ -47,6 +47,12 @@ export default class Icons extends Component {
               <div className='col-sm'>
                 <i className="devicon-visualstudio-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
+              <div className='col-sm'>
+              <i class="devicon-angularjs-plain colored" style={{ fontSize: '160px' }}></i>
+              </div>
+              <div className='col-sm'>
+              <i class="devicon-sequelize-plain colored" style={{ fontSize: '160px' }}></i>
+              </div>
             </div>
           </div>
         </div>
