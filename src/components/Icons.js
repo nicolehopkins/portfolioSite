@@ -13,48 +13,54 @@ export default class Icons extends Component {
               </div>
             </div>
           </div>
+
           <div className='container-fluid'>
+
             <div className='row' style={{ paddingBottom: '70px' }}>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-javascript-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-html5-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-css3-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-bootstrap-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-git-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
             </div>
-            <div className='row'>
-              <div className='col-sm'>
+
+            <div className='row' style={{ paddingBottom: '70px' }}>
+              <div className='col'>
                 <i className="devicon-react-original colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-postgresql-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-nodejs-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-foundation-plain" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
+              <div className='col'>
                 <i className="devicon-visualstudio-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
-              <i class="devicon-angularjs-plain colored" style={{ fontSize: '160px' }}></i>
+            </div>
+
+            <div className='row' style={{ paddingBottom: '70px', justifyContent: 'center' }}>
+              <div className='col'>
+                <i class="devicon-angularjs-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col-sm'>
-              <i class="devicon-sequelize-plain colored" style={{ fontSize: '160px' }}></i>
+              <div className='col'>
+                <i class="devicon-sequelize-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
             </div>
-          </div>
+            </div>
         </div>
 
         {/* FOR SMALL TO MEDIUM SCREENS */}
@@ -97,6 +103,12 @@ export default class Icons extends Component {
               </div>
               <div className='col-6'>
                 <i className="devicon-visualstudio-plain colored" style={{ fontSize: '160px' }}></i>
+              </div>
+              <div className='col-6'>
+                <i class="devicon-angularjs-plain colored" style={{ fontSize: '160px' }}></i>
+              </div>
+              <div className='col-6'>
+                <i class="devicon-sequelize-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
             </div>
           </div>
