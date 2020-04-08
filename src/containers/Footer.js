@@ -28,7 +28,7 @@ export default class Footer extends Component {
               <span style={{ color: 'white', textAlign: 'left', paddingLeft: '10px' }}>&copy; {currentYear} Nicole Hopkins</span>
             </div>
             <div className='row' style={{ display: 'flex', margin: '0 auto' }}>
-              <a className='col-sm' href='mailto:nicolehopkins@pursuit.org'>
+              <a className='col-sm' href='mailto:nlhopkins@gmail.com'>
                 <FiMail style={{ size: '20px', marginLeft: '40px', marginRight: '40px' }} />
               </a>
               <a className='col-sm' href="https://www.linkedin.com/in/nicole-hopkins-01/" target='_blank' rel='noopener noreferrer'>
