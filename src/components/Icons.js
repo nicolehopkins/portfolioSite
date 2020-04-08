@@ -45,7 +45,7 @@ export default class Icons extends Component {
                 <i className="devicon-nodejs-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
               <div className='col'>
-                <i className="devicon-foundation-plain" style={{ fontSize: '160px' }}></i>
+                <i className="devicon-foundation-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
               <div className='col'>
                 <i className="devicon-visualstudio-plain colored" style={{ fontSize: '160px' }}></i>
@@ -53,10 +53,10 @@ export default class Icons extends Component {
             </div>
 
             <div className='row' style={{ paddingBottom: '70px', justifyContent: 'center' }}>
-              <div className='col'>
+              <div className='col-3'>
                 <i class="devicon-angularjs-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
-              <div className='col'>
+              <div className='col-3'>
                 <i class="devicon-sequelize-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default class Icons extends Component {
                 <i className="devicon-nodejs-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
               <div className='col-6'>
-                <i className="devicon-foundation-plain" style={{ fontSize: '160px' }}></i>
+                <i className="devicon-foundation-plain colored" style={{ fontSize: '160px' }}></i>
               </div>
               <div className='col-6'>
                 <i className="devicon-visualstudio-plain colored" style={{ fontSize: '160px' }}></i>

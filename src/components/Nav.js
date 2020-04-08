@@ -4,6 +4,8 @@ import Resume from '../assets/resume.pdf';
 
 export default class Nav extends Component {
 
+  
+
   render() {
     return (
       <>
