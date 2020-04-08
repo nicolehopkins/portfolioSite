@@ -39,7 +39,7 @@ export default class Home extends Component {
             {/* TYPING EFFECT IS HIDDEN ON SMALL SCREEN */}
             <Typing >
               <span className='typing' style={{ fontSize: '25px' }}>
-                Hello World! I'm Nicole, a Full Stack Developer always looking for fun projects and new challenges.
+                Hello World! I'm Nicole, a Software Developer always looking for fun projects and new challenges.
                 Ask Me About: going from Paralegal to Programmer, learning new technologies, and all things "The Office".
             </span>
             </Typing>
