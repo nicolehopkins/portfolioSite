@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Resume from '../assets/resume.pdf';
+import Resume from '../assets/Nicole Hopkins.pdf';
 
 
 export default class Nav extends Component {
