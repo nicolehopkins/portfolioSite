@@ -9,6 +9,7 @@ import Footer from './containers/Footer';
 
 
 function App() {
+  
   return (
     <HashRouter>
       <Route path='/' component={Nav} />

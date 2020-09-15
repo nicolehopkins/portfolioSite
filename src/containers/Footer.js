@@ -16,8 +16,9 @@ export default class Footer extends Component {
 
 
   render() {
+    
     const { currentYear } = this.state;
-    // console.log('in render year is: ' + currentYear)
+
     return (
       <IconContext.Provider value={{ color: 'white', className: "global-class-name", size: '2em' }}>
 

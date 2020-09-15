@@ -4,9 +4,8 @@ import Resume from '../assets/Nicole Hopkins.pdf';
 
 export default class Nav extends Component {
 
-  
-
   render() {
+    
     return (
       <>
         <div className="btn-group" style={{ padding: '25px'}} role="group" aria-label="Button group with nested dropdown">

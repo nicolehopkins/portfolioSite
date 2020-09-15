@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 export default class Icons extends Component {
 
   render() {
+    
     return (
       <>
         <div className='d-none d-md-block'>
@@ -15,7 +16,6 @@ export default class Icons extends Component {
           </div>
 
           <div className='container-fluid'>
-
             <div className='row' style={{ paddingBottom: '70px' }}>
               <div className='col'>
                 <i className="devicon-javascript-plain colored" style={{ fontSize: '160px' }}></i>
